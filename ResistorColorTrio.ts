@@ -28,8 +28,8 @@ const Colors = [
     return `${num / div} ${prefix}ohms`;
   }
   
-  // Ejemplo de uso e impresión
-  const resistorColors: Color[] = ['red', 'green', 'orange']; // Cambia los colores según tus necesidades
+
+  const resistorColors: Color[] = ['red', 'green', 'orange']; 
   const resistorValue: string = decodedResistorValue(resistorColors);
   console.log(`El valor de la resistencia es: ${resistorValue}`);
   

@@ -43,5 +43,5 @@ export const colorCode = (color: string): number => {
   
   const color: string = 'red'; 
   const colorCodeResult: number = colorCode(color);
-  console.log(`El código de color para ${color} es: ${colorCodeResult}`);
+  console.log(`The color code for ${color} is: ${colorCodeResult}`);
   
